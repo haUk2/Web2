@@ -1,0 +1,15 @@
+div {
+    background-color: aquamarine;
+}
+
+#header {
+    font-size: 2rem;
+}
+
+.subtitle {
+    color: red;
+}
+
+#text p {
+    background-color: blueviolet;
+}

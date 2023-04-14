@@ -1,5 +1,5 @@
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header{
@@ -14,6 +14,7 @@ button{
     border-style: none;
     background-color: orange;
     color: white;
+    border-radius: 10px;
 }
 
 button:hover{
@@ -26,10 +27,12 @@ button:hover{
 }
 
 .content li{
-    background-color: brown;
+    background: linear-gradient(to right, red, cyan);
     padding: 15px;
     margin-bottom: 1px;
     color: white;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content li:hover{
@@ -38,8 +41,19 @@ button:hover{
 }
 
 label{
-    height: 50px;
-    width: 50px;
-    padding-top:25px;
-    padding-left: 10px;
+   padding-top: 30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#city_input {
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-size: 2em;
+    
 }
